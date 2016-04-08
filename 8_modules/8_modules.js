@@ -1,7 +1,4 @@
-module.exports = {
-    printAvatar: function() {
-        console.log('Avatar');
-    },
-    favMovie: 'Matrix'
+exports.printAvatar = function() {
+    console.log('Avatar');
 };
-
+exports.favMovie = 'Matrix';
